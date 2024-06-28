@@ -1,0 +1,165 @@
+/* style.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+header .tagline {
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #77aaff;
+}
+
+section {
+    padding: 20px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+#about img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#skills ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#skills ul li {
+    background: #77aaff;
+    color: #fff;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#skills h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.project {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#resume .btn {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#resume .btn:hover {
+    background: #77aaff;
+}
+
+#contact .social {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#contact .social a {
+    color: #333;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+#contact .social a:hover {
+    color: #77aaff;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
